@@ -136,7 +136,7 @@ private:
     char m_read_buf[READ_BUFFER_SIZE];
     //缓冲区中m_read_buf中数据的最后一个字节的下一个位置
     int m_read_idx;
-    //m_read_buf读取的位置m_checked_idx
+    //m_read_buf读取的位置
     int m_checked_idx;
     //m_read_buf中已经解析的字符个数
     int m_start_line;
